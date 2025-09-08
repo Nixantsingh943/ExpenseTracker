@@ -137,7 +137,7 @@ public class ExpenseTrackerGUI extends JFrame {
     private void deleteExpense() {
         int row = table.getSelectedRow();
         if (row == -1) {
-            JOptionPane.showMessageDialog(this, "Select a row to delete.", "No selection", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Select  row to delete.", "No selection", JOptionPane.WARNING_MESSAGE);
             return;
         }
         int confirm = JOptionPane.showConfirmDialog(this, "Delete selected expense?", "Confirm Delete", JOptionPane.YES_NO_OPTION);
