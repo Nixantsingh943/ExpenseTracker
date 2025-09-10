@@ -98,7 +98,7 @@ public class ExpenseTrackerGUI extends JFrame {
 
     private void styleButton(JButton button) {
         button.setBackground(new Color(30, 145, 250));
-        button.setForeground(Color.yellow);
+        button.setForeground(Color.white);
         button.setFocusPainted(false);
         button.setFont(new Font("SansSerif", Font.BOLD, 13));
         button.setPreferredSize(new Dimension(170, 34));
